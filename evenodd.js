@@ -101,4 +101,47 @@
 
 
    // 9
+   //    function nine(num){
+//       if(num <= 1){
+//       return 'not prime';
+
+//    }
+//    for (let i = 2; i < num; i++){
+//       if (num % i === 0){
+//          return 'not prime';
+//       }
+//    }
+//    return 'prime';
+// }
+// export default nine;
+
+  //10
+
+// function ten(num){
+//    return num.toString().length;
+// }
+// export default ten;
+
+
+  //11
+
+// function eleven(n) {
+//    console.log("program.11 sum of digits");
+
+//    let sum = 0;
+
+//    while (n > 0) {
+//        let digit = n % 10;
+//        sum += digit;
+//        n = (n - digit) / 10;
+//    }
+
+//    console.log("sum of digits:", sum);
+//    return sum;
+// }
+
+// export default eleven;
+
+
+   //12
   
