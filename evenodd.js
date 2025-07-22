@@ -101,7 +101,12 @@
 
 
    // 9
+<<<<<<< HEAD
    //    function nine(num){
+=======
+
+//    function nine(num){
+>>>>>>> f5c5a81b5c7933d803d20b56f456bd06d454e526
 //       if(num <= 1){
 //       return 'not prime';
 
@@ -115,7 +120,11 @@
 // }
 // export default nine;
 
+<<<<<<< HEAD
   //10
+=======
+//10
+>>>>>>> f5c5a81b5c7933d803d20b56f456bd06d454e526
 
 // function ten(num){
 //    return num.toString().length;
@@ -144,4 +153,9 @@
 
 
    //12
+<<<<<<< HEAD
   
+=======
+  
+
+>>>>>>> f5c5a81b5c7933d803d20b56f456bd06d454e526

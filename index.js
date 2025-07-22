@@ -1,2 +1,2 @@
-import eight from "./evenodd.js"
-console.log(eight(121));
+import elevene from "./evenodd.js"
+console.log(elevene(1234));
