@@ -1,26 +1,19 @@
-exports.index=(req,res) => {
-    res.send("welcome to the ph.D students API!\n");
-
-};
-
-exports.show =(req,res) => {
-    res.send(`showing data for ID: ${req.params.id}\n`);
-
+exports.index=(req, res) => {
+  res.send("Hello World!");
 }
 
-exports.store =(req,res) => {
-    res.send(`Data received: ${req.body.name}, ${req.body.city}\n`);
-
+exports.show=(req, res) => {
+  res.send(`show data for id: ${req.params.id} my name is ${req.body.name},my city is ${req.body.city}\n`);
 }
 
-exports.update=(req,res) => {
-    res.send(
-        `Data updated for ID; ${req.params.id},name: ${req.body.name}, city: ${req.body.city}\n`);
-        
-    
-};
+exports.store=(req, res) => {
+  res.send(`record received:${req.body.name},${req.body.city} \n`);
+}
 
-exports.delete =(req,res) => {
-    res.send(`Data deleted for ID: ${req.params.id}/n`);
+exports.update=(req, res)=>{
+    res.send(`record updated for id: ${req.params.id} ,Name: ${req.body.name},city: ${req.body.city}\n`);
+}
 
-};
+exports.delete=(req, res)=>{
+    res.send(`record deleted for id: ${req.params.id} \n`);
+}
